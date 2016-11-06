@@ -1,0 +1,66 @@
+<!Doctype html>
+<html>
+<head>
+  <title>Opn Business Signup</title>
+  <!-- Font Family - Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
+
+  <script src="https://use.fontawesome.com/939e9dd52c.js"></script>
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+
+</head>
+<body>
+
+  <div class="mainDiv" align="right">
+    <img src = "opnLogo.png" alt="Open Logo" style="width:611px;height:461px;" align="center">
+    <h1 id="opnHeading" align="left">Sign up for Open!</h1>
+    <textarea id="businessName" placeholder="Business Name ..."></textarea>
+    <textarea id="contactName" placeholder="Contact Name"></textarea>
+    <textarea id="businessTypeOne" placeholder="businessTypeOne"></textarea>
+    <textarea id="businessTypeTwo" placeholder="businessTypeTwo"></textarea>
+    <textarea id="businessTypeThree" placeholder="businessTypeThree"></textarea>
+    <textarea id="mondayOpen" placeholder="mondayOpen"></textarea>
+    <textarea id="mondayClose" placeholder="mondayClose"></textarea>
+    <textarea id="tuesdayOpen" placeholder="tuesdayOpen"></textarea>
+    <textarea id="tuesdayClose" placeholder="tuesdayClose"></textarea>
+    <textarea id="wednesdayOpen" placeholder="wednesdayOpen"></textarea>
+    <textarea id="wednesdayClose" placeholder="wednesdayClose"></textarea>
+    <textarea id="thursdayOpen" placeholder="thursdayOpen"></textarea>
+    <textarea id="thursdayClose" placeholder="thursdayClose"></textarea>
+    <textarea id="fridayOpen" placeholder="fridayOpen"></textarea>
+    <textarea id="fridayClose" placeholder="fridayClose"></textarea>
+    <textarea id="saturdayOpen" placeholder="saturdayOpen"></textarea>
+    <textarea id="saturdayClose" placeholder="saturdayClose"></textarea>
+    <textarea id="sundayOpen" placeholder="sundayOpen"></textarea>
+    <textarea id="sundayClose" placeholder="sundayClose"></textarea>
+    <textarea id="addressLineOne" placeholder="addressLineOne"></textarea>
+    <textarea id="addressLineTwo" placeholder="addressLineTwo"></textarea>
+    <textarea id="city" placeholder="city"></textarea>
+    <textarea id="state" placeholder="state"></textarea>
+    <textarea id="zip" placeholder="zip"></textarea>
+    <textarea id="website" placeholder="website"></textarea>
+    <textarea id="email" placeholder="email"></textarea>
+    <textarea id="userDescription" placeholder="userDescription"></textarea>
+
+    <button id="submitBtn" onclick="submitClick()"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+  </div>
+
+<script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCXDu3fPF1WYvQe32j8jKlXwWpYoXurCnE",
+    authDomain: "open-89ea7.firebaseapp.com",
+    databaseURL: "https://open-89ea7.firebaseio.com",
+    storageBucket: "open-89ea7.appspot.com",
+    messagingSenderId: "552464812218"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script type="text/javascript" src="./index.js"></script>
+
+</body>
+</html>
